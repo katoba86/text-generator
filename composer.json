@@ -1,19 +1,16 @@
 {
-    "name": "neveldo/text-generator",
+    "name": "katoba86/text-generator",
     "description" : "TextGenerator is a tool that aims to automate the generation of text from data by using a template.",
     "type": "library",
     "license": "MIT",
     "require": {
         "php": ">=5.5.0",
-        "symfony/expression-language": "^3.0|^4.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^6.0"
+        "symfony/expression-language": "^5.0"
     },
     "autoload": {
         "psr-4" : {
-            "Neveldo\\TextGenerator\\": "src/TextGenerator/"
+            "katoba86\\TextGenerator\\": "src/TextGenerator/"
         }
     },
-    "minimum-stability" : "stable"
+    "minimum-stability" : "dev"
 }
