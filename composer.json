@@ -9,7 +9,7 @@
     },
     "autoload": {
         "psr-4" : {
-            "katoba86\\TextGenerator\\": "src/TextGenerator/"
+            "Neveldo\\TextGenerator\\": "src/TextGenerator/"
         }
     },
     "minimum-stability" : "dev"
